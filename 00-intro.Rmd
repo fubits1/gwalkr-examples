@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+# install.packages("GWalkR")
+```
+
+```{r}
+library(GWalkR)
+data(iris)
+```
+
+
+```{r}
+gwalkr(iris)
+```
+
